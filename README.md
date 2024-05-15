@@ -7,28 +7,38 @@ Description: Detailed example of the audio processing and model predictions.
 
 ### 1. Clean Normalised Speech Signal
 - **Audio File**: 8465-246943-0018.flac is a clean signal from Librespeech.
-[/System/Volumes/Data/Volumes/Air/projekt/RIR_part/RIR-Generator/reverbs_set/noised_reverb_set/test_10/s/10_angle-30_t160_8465-246943-0018.flac](#)
-- **Waveform Image**: ![/Users/mothspaws/Desktop/images for BP/readme/clean1.png](#)
+https://github.com/mothspaws/BP-2024/assets/72342131/d08f528b-5011-46f4-9d33-ba1a6425c6ef
+
+- **Waveform Image**: 
+![clean1](https://github.com/mothspaws/BP-2024/assets/72342131/a5fb97fa-7ec4-40ba-a66a-f0a423efd839)
 
 ### 2. Generate impulse response based on 30&deg; and wanted T60 level 160 ms
 - The cleen normalised speech signal was filtered by generated impulse response.
-[/System/Volumes/Data/Volumes/Air/projekt/RIR_part/RIR-Generator/reverbs_set/test_filtered/160/angle-30_t160_8465-246943-0018.flac](#)
+https://github.com/mothspaws/BP-2024/assets/72342131/09b5133e-2963-4d96-afb3-8388c88680dc
 
 ### 3. Normalised Noise Component
-- **Audio File**: [/Users/mothspaws/Desktop/images for BP/readme/10_angle-30_t160_8465-246943-0018.flac](#)
-- **Waveform Image**: ![Normalised Noise Component Image](#)
+- **Audio File**:
+https://github.com/mothspaws/BP-2024/assets/72342131/77427293-28d6-47d8-a65c-8559c5074aec
+
+- **Waveform Image**:
+![noise1](https://github.com/mothspaws/BP-2024/assets/72342131/c52c6a59-3d33-466b-9e95-e6523beeab69)
 
 ### 4. Combination of Reverberated Speech and Noise
 - **Audio File**: 10_angle-30_t160_8465-246943-0018.flac with noise level 10 dB.
-[/System/Volumes/Data/Volumes/Air/projekt/RIR_part/RIR-Generator/reverbs_set/noised_reverb_set/noised_reverb_set/test_10/x/10_angle-30_t160_8465-246943-0018.flac](#)
-- **Waveform Image**: ![Combined Signal Image](#)
+https://github.com/mothspaws/BP-2024/assets/72342131/02eb3f81-729d-492d-b746-460a02d42d33
+
+- **Waveform Image**:
+![combined1](https://github.com/mothspaws/BP-2024/assets/72342131/9ec63cb9-c520-424a-aeb6-99a6d467d977)
+
 
 ### 5. Spectrogram
-- **Image**: ![Spectrogram Image](#)
+- **Image**:
+![spect1](https://github.com/mothspaws/BP-2024/assets/72342131/98a71e16-a39a-45ad-b3db-fe252ccf26cd)
 
 ### 6. Prediction Graph
 - **Description**: This graph shows the comparison of the expected metrics flow and the predicted metrics flow.
-- **Image**: ![Prediction Graph Image](#)
+- **Image**:
+![predictions1](https://github.com/mothspaws/BP-2024/assets/72342131/a89edbb7-354c-4af3-8b29-b81d348e857b)
 
 ### 7. Table: Comparison of Expected and Predicted Metrics
 - **Description**: This tables show more detailed comparison of the expected metrics and the predicted metrics.
