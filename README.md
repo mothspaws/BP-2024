@@ -10,7 +10,7 @@ Description: Detailed example of the audio processing and model predictions.
 https://github.com/mothspaws/BP-2024/assets/72342131/d08f528b-5011-46f4-9d33-ba1a6425c6ef
 
 - **Waveform Image**: 
-![clean1](https://github.com/mothspaws/BP-2024/assets/72342131/a5fb97fa-7ec4-40ba-a66a-f0a423efd839)
+![clean1](https://github.com/mothspaws/BP-2024/assets/72342131/ea27d411-cec3-4a76-a852-1ffe19cb2986)
 
 ### 2. Generate impulse response based on 30&deg; and wanted T60 level 160 ms
 - The cleen normalised speech signal was filtered by generated impulse response.
