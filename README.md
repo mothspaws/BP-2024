@@ -3,7 +3,7 @@
 This repository contains source code and example dataset, which were created while writing of my bachelor thesis, which focuses on the non-intrusive estimation of speech signal quality metrics. There are few demonstrations of various audio processing and models predictions.
 
 ## Audio Example 1: Combi-En model
-Description: Detailed example of the audio processing and model predictions.
+Description: Detailed example of the audio processing and Combi-En model model predictions.
 
 ### 1. Clean Normalised Speech Signal
 - **Audio File**: 8465-246943-0018.flac is a clean signal from Librespeech.
@@ -53,7 +53,41 @@ https://github.com/mothspaws/BP-2024/assets/72342131/02eb3f81-729d-492d-b746-460
 | Expected STOI  | 0.8  | 0.8  | 0.7  | 0.7  | 0.9  | 0.9  | 0.8  | 0.8  | 0.8  | 0.0  | 0.8  | 0.9  | 0.8  | 0.7  |
 | Predicted STOI | 0.8  | 0.7  | 0.7  | 0.8  | 0.8  | 0.8  | 0.8  | 0.8  | 0.8  | 0.2  | 0.8  | 0.8  | 0.7  | 0.7  |
 
+## Audio Example 2: Reverb-En model
+Description: Detailed example of the audio processing and Reverb-En model model predictions.
 
+### 1. Clean Speech Signal
+- **Audio File**: 89-219-0042.flac is a clean signal from Librespeech.
+<audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="[https://github.com/mothspaws/BP-2024/assets/72342131/77427293-28d6-47d8-a65c-8559c5074aec
+](https://github.com/mothspaws/BP-2024/assets/72342131/77427293-28d6-47d8-a65c-8559c5074aec)">Your browser does not support the audio tag.</audio>
+- **Waveform Image**: 
+![clean1](https://github.com/mothspaws/BP-2024/assets/72342131/ea27d411-cec3-4a76-a852-1ffe19cb2986)
+
+### 2. Generate impulse response based on 0&deg; and wanted T60 level 240 ms
+- The cleen speech signal was normalised and filtered by generated impulse response.
+
+### 3. Spectrogram
+- **Image**:
+
+
+### 4. Prediction Graph
+- **Description**: This graph shows the comparison of the expected metrics flow and the predicted metrics flow.
+- **Image**:
+
+
+### 5. Table: Comparison of Expected and Predicted Metrics
+- **Description**: This tables show more detailed comparison of the expected metrics and the predicted metrics.
+
+| Metric         | 1      | 2      | 3      | 4      | 5      | 6      | 7      | 8      | 9      | 10     | 11     | 12     | 13     | 14     | 15     | 16     |
+|----------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Expected STOI  | 0.8    | 0.7    | 0.4    | 0.7    | 0.7    | 0.7    | 0.7    | 0.6    | 0.4    | 0.6    | 0.7    | 0.6    | 0.6    | 0.7    | 0.6    | 0.5    |
+| Predicted STOI | 0.7    | 0.7    | 0.2    | 0.7    | 0.6    | 0.7    | 0.6    | 0.6    | 0.3    | 0.5    | 0.7    | 0.6    | 0.6    | 0.7    | 0.6    | 0.6    |
+
+
+| Metric     | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | 16  |
+|------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| Expected T60 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 |
+| Predicted T60| 255 | 267 | 281 | 270 | 289 | 302 | 286 | 244 | 242 | 262 | 276 | 268 | 281 | 301 | 317 | 275 |
 
 <!-- ## Audio Example 2
 [Similar structure as Example 1]
